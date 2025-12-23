@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "d3k": "dev3000 -p 4200"
+    "d3k": "dev3000 -p 4200",
+    "lint": "ng lint"
   },
   "prettier": {
     "printWidth": 100,
@@ -35,15 +36,20 @@
     "tslib": "^2.8.1"
   },
   "devDependencies": {
+    "@angular-eslint/builder": "21.1.0",
     "@angular/build": "^21.0.4",
     "@angular/cli": "^21.0.4",
     "@angular/compiler-cli": "^21.0.6",
+    "@eslint/js": "^9.39.1",
     "@tailwindcss/postcss": "^4.1.18",
+    "angular-eslint": "21.1.0",
     "dev3000": "0.0.128",
+    "eslint": "^9.39.1",
     "jsdom": "^27.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
     "typescript": "~5.9.3",
+    "typescript-eslint": "8.47.0",
     "vitest": "^4.0.16"
   }
 }
