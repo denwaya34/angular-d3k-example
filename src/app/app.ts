@@ -19,6 +19,7 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   template: `
     <main>
+      <h1>おはよう</h1>
       <app-hero />
       <app-features />
       <app-about />
